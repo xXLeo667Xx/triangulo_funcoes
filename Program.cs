@@ -18,10 +18,10 @@ namespace couse
             //variaveis da area, pegar a mdedida da funcao para fazer o calculo
             double areaX = CalcularAreaTriangulo(medidasX);
             double areaY = CalcularAreaTriangulo(medidasY);
-            //interface de usuario, mudando de double para string os valores da area e "f4" seria a quaryidade de numeros depois da virgula
-            Console.WriteLine("Area de x = " + areaX.ToString("f4", CultureInfo.InvariantCulture));
-            Console.WriteLine("Area do Y = " + areaY.ToString("f4", CultureInfo.InvariantCulture));
-            // caso a aera for maior que a outra mostrara uma interface de usuario aonde ou x  ou y seria maior
+
+            Console.WriteLine("Area de x = " + areaX.ToString(CultureInfo.InvariantCulture));
+            Console.WriteLine("Area do Y = " + areaY.ToString(CultureInfo.InvariantCulture));
+
             if (areaX > areaY)
             {
                 Console.WriteLine("Maior Area = X");

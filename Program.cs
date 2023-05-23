@@ -16,8 +16,8 @@ namespace couse
             double areaX = CalcularAreaTriangulo(medidasX);
             double areaY = CalcularAreaTriangulo(medidasY);
 
-            Console.WriteLine("Area de x = " + areaX.ToString(CultureInfo.InvariantCulture));
-            Console.WriteLine("Area do Y = " + areaY.ToString(CultureInfo.InvariantCulture));
+            Console.WriteLine("Area de x = " + areaX.ToString("f4",CultureInfo.InvariantCulture));
+            Console.WriteLine("Area do Y = " + areaY.ToString("f4",CultureInfo.InvariantCulture));
 
             if (areaX > areaY)
             {

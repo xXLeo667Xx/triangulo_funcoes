@@ -1,6 +1,6 @@
 # Triangulo dce Função
 ## Versão: 1.0 
-## Status do Projeto: ✔️ Concluído ⚠️ Espera ❌ Cancelado
+## Status do Projeto: ✔️ Concluído 
 
 ## Tópicos
 🔹 Descrição do projeto 
